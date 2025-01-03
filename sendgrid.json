@@ -12,14 +12,6 @@
     }
   },
   "layouts": {
-    "invite": {
-      "path": "layouts/invite",
-      "templates": ["html", "txt"]
-    },
-    "inviteAdmin": {
-      "path": "layouts/inviteAdmin",
-      "templates": ["html", "txt"]
-    },
     "magicLink": {
       "path": "layouts/magicLink",
       "templates": ["html", "txt"]
