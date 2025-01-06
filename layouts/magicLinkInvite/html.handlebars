@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Invitation to Super Optimal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap" rel="stylesheet">
+    {{> styles}}
+  </head>
+  <body>
+    <div class="super-optimal-msg">
+      <div class="super-optimal-msg-content">
+        <p class="super-optimal-msg-lead">Hi {{name}},</p>
+        <p>To finish signing in, please press the button below</p>
+        <a href={{returnUrl}} class="super-optimal-button super-optimal-space-top" target="_blank" rel="noopener noreferrer">Sign in</a>
+        <p>If you didn’t attempt to sign in, you can safely ignore this email.</p>
+        <p class="super-optimal-msg-signature">
+          Thanks,
+          <strong>The Super Optimal Team</strong>
+        </p>
+      </div>
+      {{> footer}}
+    </div>
+  </body>
+</html>
