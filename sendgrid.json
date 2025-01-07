@@ -15,6 +15,10 @@
     "magicLink": {
       "path": "layouts/magicLink",
       "templates": ["html", "txt"]
+    },
+    "magicLinkInvite": {
+      "path": "layouts/magicLinkInvite",
+      "templates": ["html", "txt"]
     }
   }
 }
