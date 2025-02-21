@@ -15,7 +15,7 @@ Members of this git repository can be granted varying levels of access, to updat
 Payload json schemas can be generated for all layouts within this directory by running:
 
 ```bash
-npm run generate-payload-schemas
+npm run gen-payload-schemas
 ```
 
 This will generate a `payloadSchema.json` file within your layout template directory, which will be used to validate payloads when sending notifications.

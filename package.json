@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rocketmakers/orbit-template-http-repository": "^2.0.5",
+    "@rocketmakers/orbit-template-http-repository": "2.0.5",
     "express": "4.21.1",
     "handlebars": "4.7.8",
     "ts-node": "^10.9.2",
